@@ -57,3 +57,5 @@ const first = { firstName: "John" }
 const last = { lastName: "Smith" }
 Object.assign(first, last)
 console.log(first);
+
+// It will keep only the object that is being moved
