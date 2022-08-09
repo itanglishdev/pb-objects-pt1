@@ -28,3 +28,15 @@ const personSecond = {
   city: "Paris"
 }
 console.log(`${personSecond.firstName} ${personSecond.lastName} is a ${personSecond.age} year old ${personSecond.job} in ${personSecond.city}`);
+
+// Bonus
+
+const personObject = {
+  name: "Me",
+  surName: "Yu",
+  age: 22,
+  city: "Munich"
+}
+
+const personObjectArray = Object.entries(personObject)
+console.log(personObjectArray)
