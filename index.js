@@ -50,3 +50,10 @@ const student = {
 }
 const studentArray = Object.keys(student)
 console.log(studentArray);
+
+// Bonus 3
+
+const first = { firstName: "John" }
+const last = { lastName: "Smith" }
+Object.assign(first, last)
+console.log(first);
