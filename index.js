@@ -78,3 +78,8 @@ function createANewObj() {
 }
 console.log(createANewObj());
 
+// Ex 5
+
+const studentValues = Object.values(student)
+const bigArray = [studentArray, studentValues]
+console.log(bigArray);
