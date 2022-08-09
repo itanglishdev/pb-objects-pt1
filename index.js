@@ -40,3 +40,13 @@ const personObject = {
 
 const personObjectArray = Object.entries(personObject)
 console.log(personObjectArray)
+
+// Bonus 2
+
+const student = {
+  name: "Mike",
+  class: "4A",
+  course: "English"
+}
+const studentArray = Object.keys(student)
+console.log(studentArray);
