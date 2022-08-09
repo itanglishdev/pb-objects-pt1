@@ -59,3 +59,22 @@ Object.assign(first, last)
 console.log(first);
 
 // It will keep only the object that is being moved
+
+// Bonus 4
+
+const personSwitch = {
+  name: "John",
+  job: "teacher"
+}
+
+
+function createANewObj() {
+  const switchPerson = {}
+  Object.assign(switchPerson, personSwitch)
+
+  switchPerson.name = personSwitch.job
+  switchPerson.job = personSwitch.name
+  return switchPerson
+}
+console.log(createANewObj());
+
