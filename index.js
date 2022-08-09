@@ -17,3 +17,14 @@ const getObjectValues = {
   choice3: "milk"
 }
 console.log(Object.values(getObjectValues));
+
+// Ex 3
+
+const personSecond = {
+  firstName: "Michael",
+  lastName: "Smith",
+  job: "driver",
+  age: 20,
+  city: "Paris"
+}
+console.log(`${personSecond.firstName} ${personSecond.lastName} is a ${personSecond.age} year old ${personSecond.job} in ${personSecond.city}`);
